@@ -1,0 +1,5 @@
+select FIRSTNME
+,MIDINIT
+,LASTNAME
+,SALARY
+from EMP

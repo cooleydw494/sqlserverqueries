@@ -1,0 +1,4 @@
+select *
+from DEPT
+where DEPTNAME LIKE '%SERVICE%' -- or DEPTNAME LIKE '%SERVICE' or DEPTNAME LIKE 'SERVICE%'
+order by DEPTNO ASC

@@ -1,0 +1,4 @@
+select FIRSTNME, LASTNAME, (SALARY / 12) AS "MONTHLY SALARY"
+from EMP
+where (SALARY / 12) >= 3000
+order by LASTNAME ASC

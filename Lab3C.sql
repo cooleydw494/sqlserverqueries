@@ -1,0 +1,4 @@
+select DEPTNAME
+,DEPTNO
+from DEPT
+where ADMRDEPT = 'A00'
